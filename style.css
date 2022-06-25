@@ -6,6 +6,7 @@
     font-family: 'Lexend Deca', sans-serif;;
 }
 :root{
+/*variaveis de cores*/
     --white:#fff;
     --whitesnoke:#f9f9f9;
     --light-grey:#ececec;
@@ -65,4 +66,9 @@ margin-bottom: 30px;
 .input:focus{/* server para fazer alteração focada*/
     background-color: var(--whitesnoke);
     border: 2px solid var(--deep-gray);
+}
+.label-login .span-active{
+    font-size: 0.7em;
+    margin: 8px 10px;
+    
 }
