@@ -34,8 +34,10 @@
     margin-bottom: 80px;
 }
 .login-title{
+
     color: var(--deep-gray);
     font-size: 1.5em;
+    padding-bottom: 20px;
 }
 .label-login{
 display: block;
@@ -62,6 +64,7 @@ margin-bottom: 30px;
     color: var(--mediun-gray);
     margin:20px;
     cursor: text;
+    transition: all 200ms ease;
 }
 .input:focus{/* server para fazer alteração focada*/
     background-color: var(--whitesnoke);
@@ -71,4 +74,30 @@ margin-bottom: 30px;
     font-size: 0.7em;
     margin: 8px 10px;
     
+}
+.login-icons{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+.login-icons img{
+    width: 20PX;
+
+}
+.button-icons{
+    width:33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+#facebook{
+    background-color: var(--blue);
+}
+#apple{
+    background-color: var(--black);
 }
